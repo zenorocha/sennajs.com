@@ -1,0 +1,4 @@
+{
+    "id": "host",
+    "type": "wedeploy/hosting:latest"
+}

@@ -1,0 +1,15 @@
+{namespace mainUpdates}
+
+/**
+ * @param content
+ * @param? elementClasses
+ */
+{template .render}
+	<div class="{$elementClasses ?: 'main'}">
+		<main id="updates" class="content">
+			{call TopbarUpdates.render data="all" /}
+
+			{$content}
+		</main>
+	</div>
+{/template}

@@ -1,0 +1,59 @@
+$accent2: #07b8be;
+$accent: #FEDD3E;
+$primary: #003D3F;
+$primary-dark: #002B2C;
+
+$color-yellow: #F5D227;
+$color-yellow-dark: #ffb700;
+$color-purple: #783FD6;
+$color-blue: #3930C6;
+
+$color-teal: #07B8BE;
+$color-emerald: #07BE7B;
+$color-orange: #ff6e00;
+
+$color-green: #33B114;
+$color-green-dark: #154A08;
+$color-green-xdark: #0E3005;
+
+$color-reds: #E0464C;
+$color-reds-dark: #5F1620;
+$color-reds-xdark: #290409;
+
+$color-orange: #EE7519;
+$color-orange-dark: #6F3306;
+$color-orange-xdark: #401D03;
+
+$color-purple: #783FD6;
+$color-purple-dark: #38176E;
+$color-purple-xdark: #1C0D34;
+
+
+@import "node_modules/westyle/src/westyle";
+
+// General
+
+@import "topbar";
+@import "senna";
+
+// Home
+@import "header";
+@import "about";
+@import "features";
+@import "highlights";
+@import "footer";
+@import "senna";
+
+// Docs
+
+@import "autocomplete";
+@import "docs";
+@import "guide";
+@import "search";
+@import "topics";
+@import "senna";
+
+// Updates
+
+@import "updates";
+@import "senna";

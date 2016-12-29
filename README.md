@@ -4,4 +4,4 @@ This repository contains the source code of the website [sennajs.com](http://sen
 
 ## License
 
-[BSD License](https://github.com/liferay/sennajs.com/blob/master/LICENSE) © Eduardo Lundgren
+[BSD License](https://github.com/liferay/sennajs.com/blob/master/LICENSE) © Liferay, Inc.

@@ -1,0 +1,17 @@
+
+{namespace sidebarHome}
+
+/**
+ * @param section
+ * @param? activeClass
+ */
+{template .render}
+
+	<div class="sidebar-home sidebar-list-1 {$activeClass}">
+		<a href="{$section.url}" class="sidebar-link">
+			<span class="sidebar-icon icon-16-house"></span>
+			<span>{$section.title} Home</span>
+		</a>
+	</div>
+
+{/template}
