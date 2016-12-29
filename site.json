@@ -1,0 +1,308 @@
+{
+	"title": "senna.js",
+	"index": {
+		"title": "Home",
+		"description": "A Blazing-Fast Single Page Application Engine",
+		"srcFilePath": "src/pages/index.soy",
+		"url": "/",
+		"children": [
+			{
+				"description": "Documentation description.",
+				"title": "Documentation",
+				"srcFilePath": "src/pages/docs/index.soy",
+				"url": "/docs",
+				"children": [
+					{
+						"children": [
+							{
+								"description": "About Senna.js",
+								"layout": "guideIntro",
+								"title": "About Senna.js",
+								"weight": 1,
+								"srcFilePath": "src/pages/docs/Intro/aboutSenna.md",
+								"url": "/docs/Intro/aboutSenna.html"
+							},
+							{
+								"description": "How Does It Work",
+								"layout": "guideIntro",
+								"title": "How Does It Work",
+								"weight": 2,
+								"srcFilePath": "src/pages/docs/Intro/howdoesitwork.md",
+								"url": "/docs/Intro/howdoesitwork.html"
+							},
+							{
+								"description": "Capabilities of Senna.js",
+								"layout": "guideIntro",
+								"title": "Capabilities",
+								"weight": 3,
+								"srcFilePath": "src/pages/docs/Intro/capabilities.md",
+								"url": "/docs/Intro/capabilities.html"
+							},
+							{
+								"description": "How to Get Started",
+								"layout": "guideIntro",
+								"title": "Getting Started",
+								"weight": 4,
+								"srcFilePath": "src/pages/docs/Intro/gettingStarted.md",
+								"url": "/docs/Intro/gettingStarted.html"
+							}
+						],
+						"description": "Intro",
+						"icon": "arrow-right-rod",
+						"layout": "guideIntro",
+						"title": "Intro",
+						"weight": 2,
+						"url": "/docs/Intro/aboutSenna.html",
+						"srcFilePath": "src/pages/docs/Intro/index.md"
+					},
+					{
+						"children": [
+							{
+								"description": "The Building Blocks",
+								"layout": "guideFeatures",
+								"title": "The Building Blocks",
+								"weight": 1,
+								"srcFilePath": "src/pages/docs/features/theBuildingblocks.md",
+								"url": "/docs/features/theBuildingblocks.html"
+							},
+							{
+								"description": "Trackable Resources",
+								"layout": "guideFeatures",
+								"title": "Trackable Resources",
+								"weight": 2,
+								"srcFilePath": "src/pages/docs/features/trackableResources.md",
+								"url": "/docs/features/trackableResources.html"
+							},
+							{
+								"description": "Routes",
+								"layout": "guideFeatures",
+								"title": "Routes",
+								"weight": 3,
+								"srcFilePath": "src/pages/docs/features/routes.md",
+								"url": "/docs/features/routes.html"
+							},
+							{
+								"description": "Screens",
+								"layout": "guideFeatures",
+								"title": "Screens",
+								"weight": 4,
+								"srcFilePath": "src/pages/docs/features/screens.md",
+								"url": "/docs/features/screens.html"
+							},
+							{
+								"description": "Error Handling",
+								"layout": "guideFeatures",
+								"title": "Error Handling",
+								"weight": 5,
+								"srcFilePath": "src/pages/docs/features/errorHandling.md",
+								"url": "/docs/features/errorHandling.html"
+							},
+							{
+								"description": "UI Feedback",
+								"layout": "guideFeatures",
+								"title": "UI Feedback",
+								"weight": 6,
+								"srcFilePath": "src/pages/docs/features/uiFeedback.md",
+								"url": "/docs/features/uiFeedback.html"
+							}
+						],
+						"description": "Features",
+						"icon": "apps",
+						"layout": "guideFeatures",
+						"title": "Features",
+						"weight": 3,
+						"url": "/docs/features/theBuildingblocks.html",
+						"srcFilePath": "src/pages/docs/features/index.md"
+					},
+					{
+						"children": [
+							{
+								"description": "Controlling Surfaces",
+								"layout": "guideAdvanced",
+								"title": "Controlling Surfaces",
+								"weight": 1,
+								"srcFilePath": "src/pages/docs/advancedUsage/controllingSurfaces.md",
+								"url": "/docs/advancedUsage/controllingSurfaces.html"
+							},
+							{
+								"description": "JS APIs",
+								"layout": "guideAdvanced",
+								"title": "JS APIs",
+								"weight": 2,
+								"srcFilePath": "src/pages/docs/advancedUsage/jsAPI.md",
+								"url": "/docs/advancedUsage/jsAPI.html"
+							}
+						],
+						"description": "Advanced Usage",
+						"icon": "code-file",
+						"layout": "guideAdvanced",
+						"title": "Advanced Usage",
+						"weight": 4,
+						"url": "/docs/advancedUsage/controllingSurfaces.html",
+						"srcFilePath": "src/pages/docs/advancedUsage/index.md"
+					},
+					{
+						"description": "Documentation search description.",
+						"hidden": true,
+						"title": "Documentation Search",
+						"srcFilePath": "src/pages/docs/search.soy",
+						"url": "/docs/search.html"
+					}
+				]
+			},
+			{
+				"title": "Updates",
+				"description": "Updates description.",
+				"updates": [
+					{
+						"version": "1.5.3",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "fc64c80",
+								"description": "Reverts \"Waits until pending navigate is complete before removing screen\"",
+								"url": "https://github.com/liferay/senna.js/tree/v1.5.3"
+							}
+						]
+					},
+					{
+						"version": "1.5.2",
+						"major": false,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "2f76c9b",
+								"description": "Waits until pending navigate is complete before removing screen",
+								"url": "https://github.com/liferay/senna.js/tree/v1.5.2"
+							}
+						]
+					},
+					{
+						"version": "1.5.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "e311921",
+								"description": "Increases scroll capture debounce interval, fixes issue with navigate to HTTPS endpoint, and enables page to be flipped before resources have finished loading (IE11)",
+								"url": "https://github.com/liferay/senna.js/tree/v1.5.0"
+							}
+						]
+					},
+					{
+						"version": "1.4.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "6d96b71",
+								"description": "Adds debounce for storing scroll position to prevent lag",
+								"url": "https://github.com/liferay/senna.js/tree/v1.4.0"
+							}
+						]
+					},
+					{
+						"version": "1.3.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "faa03d7",
+								"description": "Changes implementation of biding events to capture navigation",
+								"url": "https://github.com/liferay/senna.js/tree/v1.3.0"
+							}
+						]
+					},
+					{
+						"version": "1.2.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "a35c7db",
+								"description": "Copies attributes from virtual document to documentElement after flip",
+								"url": "https://github.com/liferay/senna.js/tree/v1.2.0"
+							}
+						]
+					},
+					{
+						"version": "1.1.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "97d7eff",
+								"description": "Precompiles code to commonjs when published",
+								"url": "https://github.com/liferay/senna.js/tree/v1.1.0"
+							}
+						]
+					},
+					{
+						"version": "1.0.4",
+						"major": false,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "3c88ea7",
+								"description": "Fixes 302 redirect to same page will serve cached content on IE/Edge",
+								"url": "https://github.com/liferay/senna.js/tree/v1.0.4"
+							}
+						]
+					},
+					{
+						"version": "1.0.3",
+						"major": false,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "6d8e2c6",
+								"description": "Fixes bug with having \"/\" route with base path",
+								"url": "https://github.com/liferay/senna.js/tree/v1.0.3"
+							}
+						]
+					},
+					{
+						"version": "1.0.2",
+						"major": false,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "50d6398",
+								"description": "Mutate styles hrefs to be unique for IE to prevent caching issues",
+								"url": "https://github.com/liferay/senna.js/tree/v1.0.2"
+							}
+						]
+					},
+					{
+						"version": "1.0.1",
+						"major": false,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "f4bfef0",
+								"description": "Always set virtual document id to the same as document.body",
+								"url": "https://github.com/liferay/senna.js/tree/v1.0.1"
+							}
+						]
+					},
+					{
+						"version": "1.0.0",
+						"major": true,
+						"features": [
+							{
+								"icon": "hammer",
+								"title": "4f7844f",
+								"description": "Adds responseURL fallback for RequestScreen and removes url uniqueness before update history state",
+								"url": "https://github.com/liferay/senna.js/tree/v1.0.0"
+							}
+						]
+					}
+				],
+				"srcFilePath": "src/pages/updates/index.soy",
+				"url": "/updates"
+			}
+		]
+	},
+	"repo": "https://github.com/Jonathan Lundy/senna-js"
+}
