@@ -15,131 +15,125 @@
 					{
 						"children": [
 							{
-								"description": "About Senna.js",
-								"layout": "guideIntro",
-								"title": "About Senna.js",
+								"description": "Installing Senna Guide",
+								"layout": "guide",
+								"title": "Installing Senna",
+								"category": "Getting Started",
 								"weight": 1,
-								"srcFilePath": "src/pages/docs/Intro/aboutSenna.md",
-								"url": "/docs/Intro/aboutSenna.html"
+								"srcFilePath": "src/pages/docs/gettingStarted/gettingStarted.md",
+								"url": "/docs/gettingStarted/gettingStarted.html"
 							},
 							{
-								"description": "How Does It Work",
-								"layout": "guideIntro",
-								"title": "How Does It Work",
+								"description": "How It Works",
+								"layout": "guide",
+								"title": "How It Works",
+								"category": "Getting Started",
 								"weight": 2,
-								"srcFilePath": "src/pages/docs/Intro/howdoesitwork.md",
-								"url": "/docs/Intro/howdoesitwork.html"
+								"srcFilePath": "src/pages/docs/gettingStarted/howdoesitwork.md",
+								"url": "/docs/gettingStarted/howdoesitwork.html"
 							},
-							{
-								"description": "Capabilities of Senna.js",
-								"layout": "guideIntro",
-								"title": "Capabilities",
-								"weight": 3,
-								"srcFilePath": "src/pages/docs/Intro/capabilities.md",
-								"url": "/docs/Intro/capabilities.html"
-							},
-							{
-								"description": "How to Get Started",
-								"layout": "guideIntro",
-								"title": "Getting Started",
-								"weight": 4,
-								"srcFilePath": "src/pages/docs/Intro/gettingStarted.md",
-								"url": "/docs/Intro/gettingStarted.html"
-							}
-						],
-						"description": "Intro",
-						"icon": "arrow-right-rod",
-						"layout": "guideIntro",
-						"title": "Intro",
-						"weight": 2,
-						"url": "/docs/Intro/aboutSenna.html",
-						"srcFilePath": "src/pages/docs/Intro/index.md"
-					},
-					{
-						"children": [
 							{
 								"description": "The Building Blocks",
-								"layout": "guideFeatures",
+								"layout": "guide",
 								"title": "The Building Blocks",
-								"weight": 1,
-								"srcFilePath": "src/pages/docs/features/theBuildingblocks.md",
-								"url": "/docs/features/theBuildingblocks.html"
-							},
-							{
-								"description": "Trackable Resources",
-								"layout": "guideFeatures",
-								"title": "Trackable Resources",
-								"weight": 2,
-								"srcFilePath": "src/pages/docs/features/trackableResources.md",
-								"url": "/docs/features/trackableResources.html"
-							},
-							{
-								"description": "Routes",
-								"layout": "guideFeatures",
-								"title": "Routes",
+								"category": "Getting Started",
 								"weight": 3,
-								"srcFilePath": "src/pages/docs/features/routes.md",
-								"url": "/docs/features/routes.html"
-							},
-							{
-								"description": "Screens",
-								"layout": "guideFeatures",
-								"title": "Screens",
-								"weight": 4,
-								"srcFilePath": "src/pages/docs/features/screens.md",
-								"url": "/docs/features/screens.html"
-							},
-							{
-								"description": "Error Handling",
-								"layout": "guideFeatures",
-								"title": "Error Handling",
-								"weight": 5,
-								"srcFilePath": "src/pages/docs/features/errorHandling.md",
-								"url": "/docs/features/errorHandling.html"
-							},
-							{
-								"description": "UI Feedback",
-								"layout": "guideFeatures",
-								"title": "UI Feedback",
-								"weight": 6,
-								"srcFilePath": "src/pages/docs/features/uiFeedback.md",
-								"url": "/docs/features/uiFeedback.html"
+								"srcFilePath": "src/pages/docs/gettingStarted/theBuildingblocks.md",
+								"url": "/docs/gettingStarted/theBuildingblocks.html"
 							}
 						],
-						"description": "Features",
-						"icon": "apps",
-						"layout": "guideFeatures",
-						"title": "Features",
-						"weight": 3,
-						"url": "/docs/features/theBuildingblocks.html",
-						"srcFilePath": "src/pages/docs/features/index.md"
+						"description": "Getting Started",
+						"icon": "arrow-right-rod",
+						"layout": "guide",
+						"title": "Getting Started",
+						"weight": 2,
+						"url": "/docs/gettingStarted/gettingStarted.html",
+						"srcFilePath": "src/pages/docs/gettingStarted/index.md"
 					},
 					{
 						"children": [
 							{
-								"description": "Controlling Surfaces",
-								"layout": "guideAdvanced",
-								"title": "Controlling Surfaces",
+								"description": "Screens Guide",
+								"layout": "guide",
+								"title": "Screens",
+								"category": "Fully Functional",
 								"weight": 1,
-								"srcFilePath": "src/pages/docs/advancedUsage/controllingSurfaces.md",
-								"url": "/docs/advancedUsage/controllingSurfaces.html"
+								"srcFilePath": "src/pages/docs/fullyFunctional/screens.md",
+								"url": "/docs/fullyFunctional/screens.html"
 							},
 							{
-								"description": "JS APIs",
-								"layout": "guideAdvanced",
-								"title": "JS APIs",
+								"description": "Controlling Surfaces",
+								"layout": "guide",
+								"title": "Controlling Surfaces",
+								"category": "Fully Functional",
 								"weight": 2,
-								"srcFilePath": "src/pages/docs/advancedUsage/jsAPI.md",
-								"url": "/docs/advancedUsage/jsAPI.html"
+								"srcFilePath": "src/pages/docs/fullyFunctional/controllingSurfaces.md",
+								"url": "/docs/fullyFunctional/controllingSurfaces.html"
 							}
 						],
-						"description": "Advanced Usage",
+						"description": "Fully Functional",
 						"icon": "code-file",
-						"layout": "guideAdvanced",
-						"title": "Advanced Usage",
+						"layout": "guide",
+						"title": "Fully Functional",
+						"weight": 3,
+						"url": "/docs/fullyFunctional/screens.html",
+						"srcFilePath": "src/pages/docs/fullyFunctional/index.md"
+					},
+					{
+						"children": [
+							{
+								"description": "UI Feedback",
+								"layout": "guide",
+								"title": "UI Feedback",
+								"category": "Develop",
+								"weight": 1,
+								"srcFilePath": "src/pages/docs/develop/uiFeedback.md",
+								"url": "/docs/develop/uiFeedback.html"
+							},
+							{
+								"description": "Error Handling Guide",
+								"layout": "guide",
+								"title": "Error Handling",
+								"category": "Develop",
+								"weight": 2,
+								"srcFilePath": "src/pages/docs/develop/errorHandling.md",
+								"url": "/docs/develop/errorHandling.html"
+							},
+							{
+								"description": "Trackable Resources Guide",
+								"layout": "guide",
+								"title": "Trackable Resources",
+								"category": "Develop",
+								"weight": 3,
+								"srcFilePath": "src/pages/docs/develop/trackableResources.md",
+								"url": "/docs/develop/trackableResources.html"
+							},
+							{
+								"description": "Routes Guide",
+								"layout": "guide",
+								"title": "Routes",
+								"category": "Develop",
+								"weight": 4,
+								"srcFilePath": "src/pages/docs/develop/routes.md",
+								"url": "/docs/develop/routes.html"
+							},
+							{
+								"description": "JavaScript APIs",
+								"layout": "guide",
+								"title": "JavaScript APIs",
+								"category": "Develop",
+								"weight": 5,
+								"srcFilePath": "src/pages/docs/develop/jsAPI.md",
+								"url": "/docs/develop/jsAPI.html"
+							}
+						],
+						"description": "Develop",
+						"icon": "apps",
+						"layout": "guide",
+						"title": "Develop",
 						"weight": 4,
-						"url": "/docs/advancedUsage/controllingSurfaces.html",
-						"srcFilePath": "src/pages/docs/advancedUsage/index.md"
+						"url": "/docs/develop/uiFeedback.html",
+						"srcFilePath": "src/pages/docs/develop/index.md"
 					},
 					{
 						"description": "Documentation search description.",
