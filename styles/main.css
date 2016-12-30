@@ -8154,7 +8154,7 @@ button.close {
   transition: background-color 0.3s, color 0.3s; }
 
 .reading-progress a.reading .reading-title {
-  color: #FEDD3E; }
+  color: #07b8be; }
 
 .reading-progress a.reading svg {
   display: block; }
@@ -8180,7 +8180,7 @@ button.close {
   display: block;
   font-size: 15px;
   line-height: 1.2;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(14, 20, 26, 0.6);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -8197,7 +8197,7 @@ button.close {
   bottom: auto;
   transform: translateY(-50%);
   left: 20px;
-  stroke: #FEDD3E; }
+  stroke: #07b8be; }
 
 .popover {
   position: absolute;
@@ -10411,10 +10411,6 @@ code {
 
 .guide-topic .sidebar-list-2 .sidebar-link {
   padding-left: 56px; }
-
-.docs .reading-progress {
-  width: 100%;
-  background: #07b8be; }
 
 /* Medium screens
    ========================================================================== */

@@ -21736,7 +21736,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param406 = function param406() {
+      var param373 = function param373() {
         ie_open('h1');
         itext('Error Handling');
         ie_close('h1');
@@ -21870,7 +21870,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param406 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param373 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -21975,8 +21975,8 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param411 = function param411() {};
-      $templateAlias1(soy.$$assignDefaults({ content: param411 }, opt_data), null, opt_ijData);
+      var param378 = function param378() {};
+      $templateAlias1(soy.$$assignDefaults({ content: param378 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -22081,7 +22081,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param415 = function param415() {
+      var param382 = function param382() {
         ie_open('p');
         itext('JavaScript APIs');
         ie_close('p');
@@ -22427,7 +22427,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param415 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param382 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -22532,7 +22532,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param420 = function param420() {
+      var param387 = function param387() {
         ie_open('h1');
         itext('Routes');
         ie_close('h1');
@@ -22686,7 +22686,7 @@ babelHelpers;
         ie_close('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param420 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param387 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -22791,7 +22791,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param425 = function param425() {
+      var param392 = function param392() {
         ie_open('h1');
         itext('Trackable Resources');
         ie_close('h1');
@@ -22892,7 +22892,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param425 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param392 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -22997,7 +22997,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param430 = function param430() {
+      var param397 = function param397() {
         ie_open('h1');
         itext('UI Feedback');
         ie_close('h1');
@@ -23320,7 +23320,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param430 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param397 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23425,7 +23425,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param373 = function param373() {
+      var param402 = function param402() {
         ie_open('h1');
         itext('Controlling Surfaces');
         ie_close('h1');
@@ -23815,7 +23815,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param373 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param402 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -23920,8 +23920,8 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param378 = function param378() {};
-      $templateAlias1(soy.$$assignDefaults({ content: param378 }, opt_data), null, opt_ijData);
+      var param407 = function param407() {};
+      $templateAlias1(soy.$$assignDefaults({ content: param407 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -24026,7 +24026,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param382 = function param382() {
+      var param411 = function param411() {
         ie_open('h1');
         itext('Screens');
         ie_close('h1');
@@ -24165,7 +24165,7 @@ babelHelpers;
         ie_void('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param382 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param411 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -24270,7 +24270,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param387 = function param387() {
+      var param416 = function param416() {
         ie_open('h1');
         itext('Installing Senna');
         ie_close('h1');
@@ -24601,7 +24601,7 @@ babelHelpers;
         ie_close('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param387 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param416 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -24706,7 +24706,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param392 = function param392() {
+      var param421 = function param421() {
         ie_open('h1');
         itext('How Does It Work?');
         ie_close('h1');
@@ -24755,7 +24755,7 @@ babelHelpers;
         ie_close('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param392 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param421 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -24860,8 +24860,8 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param397 = function param397() {};
-      $templateAlias1(soy.$$assignDefaults({ content: param397 }, opt_data), null, opt_ijData);
+      var param426 = function param426() {};
+      $templateAlias1(soy.$$assignDefaults({ content: param426 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
@@ -24966,7 +24966,7 @@ babelHelpers;
      */
     function $render(opt_data, opt_ignored, opt_ijData) {
       opt_data = opt_data || {};
-      var param401 = function param401() {
+      var param430 = function param430() {
         ie_open('h1');
         itext('The Building Blocks');
         ie_close('h1');
@@ -25093,7 +25093,7 @@ babelHelpers;
         ie_close('p');
         ie_close('article');
       };
-      $templateAlias1(soy.$$assignDefaults({ content: param401 }, opt_data), null, opt_ijData);
+      $templateAlias1(soy.$$assignDefaults({ content: param430 }, opt_data), null, opt_ijData);
     }
     exports.render = $render;
     if (goog.DEBUG) {
