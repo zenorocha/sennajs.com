@@ -1,9 +1,12 @@
 ---
 description: "Controlling Surfaces"
-layout: "guideAdvanced"
+layout: "guide"
 title: "Controlling Surfaces"
-weight: 1
+category: "Fully Functional"
+weight: 2
 ---
+
+# Controlling Surfaces
 
 <article id="data-attributes-explained">
 

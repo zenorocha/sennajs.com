@@ -1,9 +1,12 @@
 ---
-description: "JS APIs"
-layout: "guideAdvanced"
-title: "JS APIs"
-weight: 2
+description: "JavaScript APIs"
+layout: "guide"
+title: "JavaScript APIs"
+category: "Develop"
+weight: 5
 ---
+
+JavaScript APIs
 
 <article id="js-api">
 

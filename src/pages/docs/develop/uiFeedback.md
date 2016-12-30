@@ -1,9 +1,12 @@
 ---
 description: "UI Feedback"
-layout: "guideFeatures"
+layout: "guide"
 title: "UI Feedback"
-weight: 6
+category: "Develop"
+weight: 1
 ---
+
+# UI Feedback
 
 <article id="default-ui-feedback">
 

@@ -1,9 +1,12 @@
 ---
-description: "Error Handling"
-layout: "guideFeatures"
+description: "Error Handling Guide"
+layout: "guide"
 title: "Error Handling"
-weight: 5
+category: "Develop"
+weight: 2
 ---
+
+# Error Handling
 
 <article id="error-handling">
 

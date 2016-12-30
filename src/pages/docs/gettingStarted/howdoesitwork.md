@@ -1,9 +1,12 @@
 ---
-description: "How Does It Work"
-layout: "guideIntro"
-title: "How Does It Work"
+description: "How It Works"
+layout: "guide"
+title: "How It Works"
+category: "Getting Started"
 weight: 2
 ---
+
+# How Does It Work?
 
 <article id="step1">
 

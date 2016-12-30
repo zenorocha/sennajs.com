@@ -1,9 +1,12 @@
 ---
-description: "Screens"
-layout: "guideFeatures"
+description: "Screens Guide"
+layout: "guide"
 title: "Screens"
-weight: 4
+category: "Fully Functional"
+weight: 1
 ---
+
+# Screens
 
 <article id="senna.HTMLScreen">
 

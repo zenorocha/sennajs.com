@@ -1,9 +1,12 @@
 ---
-description: "Trackable Resources"
-layout: "guideFeatures"
+description: "Trackable Resources Guide"
+layout: "guide"
 title: "Trackable Resources"
-weight: 2
+category: "Develop"
+weight: 3
 ---
+
+# Trackable Resources
 
 <article id="trackable-resources">
 

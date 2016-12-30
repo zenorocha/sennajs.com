@@ -1,9 +1,12 @@
 ---
-description: "How to Get Started"
-layout: "guideIntro"
-title: "Getting Started"
-weight: 4
+description: "Installing Senna Guide"
+layout: "guide"
+title: "Installing Senna"
+category: "Getting Started"
+weight: 1
 ---
+
+# Installing Senna
 
 <article id="getting-the-project">
 

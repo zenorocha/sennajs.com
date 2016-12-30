@@ -1,9 +1,12 @@
 ---
-description: "Routes"
-layout: "guideFeatures"
+description: "Routes Guide"
+layout: "guide"
 title: "Routes"
-weight: 3
+category: "Develop"
+weight: 4
 ---
+
+# Routes
 
 <article id="Routes">
 
