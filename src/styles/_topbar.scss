@@ -58,23 +58,10 @@
 	display: flex;
 }
 
-#topbar-button-download {
-	padding: 0 19px;
-	color: $primary;
-  	line-height: 48px;
-  	font-size: 15px; 
-  	-webkit-animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
-  	animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
-}
-
 @media (max-width: 720px) {
 	#topbar-button {
 		display: none;
 	}
-}
-
-#topbar-button-download {
-	color: rgba($primary, .8);
 }
 
 #docs {
@@ -87,10 +74,6 @@
 		-webkit-animation: none;
   		animation: none;
 	}
-	#topbar-button-download {
-		-webkit-animation: none;
-  		animation: none;
-	}
   }
 
 #updates {
@@ -99,10 +82,6 @@
   		animation: none;
 	}
 	.topbar-link {
-		-webkit-animation: none;
-  		animation: none;
-	}
-	#topbar-button-download {
 		-webkit-animation: none;
   		animation: none;
 	}
