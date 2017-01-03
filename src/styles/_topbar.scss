@@ -5,6 +5,10 @@
 	}
 }
 
+.topbar {
+	background: white;
+}
+
 .topbar.docs {
 	//position: fixed;
 	//z-index: 9999;
@@ -23,7 +27,7 @@
 	}
 
 	.name {
-		color: rgba(white, 0.9);
+		color: $primary;
 		font-family: "Galano Bold", sans-serif;
 		font-size: 17px;
 		font-weight: 400;
@@ -33,7 +37,7 @@
 	}
 
 	.by {
-		color: rgba(white, 0.3);
+		color: rgba($primary, 0.3);
 		font-family: "Galano Medium", sans-serif;
 		font-size: 12px;
 		font-weight: 400;
@@ -44,13 +48,16 @@
 }
 
 .topbar-link {
-	color: rgba(white, 0.7);
+	color: rgba($primary, .8);
 	-webkit-animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
   	animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
+  	padding-bottom: 2px;
+  	border-bottom: 5px hidden #FFCC00;
 }
 
 .topbar-link:hover {
-	color: rgba(white, 1);
+	border-bottom: 4px solid #FFCC00;
+	color: rgba($primary, .8);
 }
 
 #topbar-button {
