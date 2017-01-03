@@ -1,32 +1,36 @@
 .about {
+	background: #1E2023;
 	text-align: center;
 	padding: 150px 0;
 	z-index: 301;
-	background: rgba($primary, .9);
 }
 
 .about-title {
-	color: rgba(256,256,256, 1);
+	border-bottom: 10px solid $accent;
+	color: white;
+	display: inline;
 	font-family: $font-family-secondary-bold;
 	font-size: 55px;
-	margin: 20px 0 40px 0;
+	text-transform: uppercase;
 }
 
 .about-description {
-	color: rgba(256,256,256, .95);
+	color: rgba(255,255,255, .7);
 	font-family: $font-family-sans-serif;
 	font-size: 22px;
-	font-weight: 600;
-	line-height: 30px;
-	margin: 0;
-		a {
-			color: rgba(256,256,256, .85);
-			font-decoration: $accent;
-		}
-		a:hover {
-			color: rgba(256,256,256, .5);
-		}
-		p {
-			color: rgba($primary, 1);
-		}
+	line-height: 34px;
+	margin: 60px 0 0;
+
+	a {
+		color: rgba(255,255,255, .85);
+		font-decoration: $accent;
+	}
+
+	a:hover {
+		color: rgba(255,255,255, .5);
+	}
+
+	p {
+		color: rgba($primary, 1);
+	}
 }

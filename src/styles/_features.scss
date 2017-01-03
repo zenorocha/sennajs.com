@@ -10,7 +10,7 @@
 
 .feature-icon [class^="icon-16-"],
 .feature-icon [class*="icon-16-"] {
-	color: $accent2;
+	color: $accent;
 	font-size: 38px;
 	position: relative;
 	top: 10px;
@@ -62,8 +62,7 @@
 	font-size: 16px;
     line-height: 24px;
     font-family: $font-family-secondary-bold;
-    font-weight: 600;
-    color: rgba($accent2, 1);
+    color: rgba($primary, 1);
 }
 
 .feature-icon {
@@ -88,9 +87,7 @@
 .feature-title {
 	font-family: $font-family-secondary-bold;
 	font-size: 28px;
-  color: rgba($accent2, 1);
 	margin: 20px 0;
-	color: rgba(256,256,256, 1);
 }
 
 .feature-header {
@@ -105,10 +102,7 @@
 	font-family: $font-family-sans-serif;
 	font-size: 16px;
 	line-height: 26px;
-	font-weight: 600;
-  color: rgba($accent2, .85);
 	margin: 0;
-	color: rgba(256,256,256, 0.85);
 }
 
 .features {
@@ -119,134 +113,4 @@
   h3 {
     color: rgba($primary, .85);
   }
-  p {
-    color: rgba($accent2, 1);
-  }
 }
-
-#view-4-features {
-  position: relative;
-  overflow: hidden; }
-
-
-#view-4-features .giant-features {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  text-align: center; }
-  @media (min-width: 320px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 480px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 600px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 720px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 840px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-49%);
-      transform: translateX(-49%); } }
-  @media (min-width: 960px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-42.5%);
-      transform: translateX(-42.5%); } }
-  @media (min-width: 1024px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 1280px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); } }
-  @media (min-width: 1440px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-52%);
-      transform: translateX(-52%); } }
-  @media (min-width: 1600px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-52%);
-      transform: translateX(-52%); } }
-  @media (min-width: 1920px) {
-    #view-4-features .giant-features {
-      -webkit-transform: translateX(-55%);
-      transform: translateX(-55%); } }
-
-
-#view-4-features .giant-features span {
-  margin: 0;
-  padding: 0;
-  text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.02), 0px 40px 40px rgba(0,0,0, 0.04);
-  font-family: 'Galano Bold', sans-serif;
-  position: relative;
-  color: rgba(256,256,256, 1);
-  left: 0;
-  width: 100%;
-  display: block;
-  z-index: 1; }
-  @media (min-width: 320px) {
-    #view-4-features .giant-features span {
-      font-size: 186px;
-      line-height: 186px;
-      top: -21px;
-      text-align: center; } }
-  @media (min-width: 480px) {
-    #view-4-features .giant-features span {
-      font-size: 279px;
-      line-height: 279px;
-      top: -31px; } }
-  @media (min-width: 600px) {
-    #view-4-features .giant-features span {
-      font-size: 345px;
-      line-height: 345px;
-      top: -75px; } }
-  @media (min-width: 720px) {
-    #view-4-features .giant-features span {
-      font-size: 348px;
-      line-height: 318px;
-      top: -56px;
-      text-align: left; } }
-  @media (min-width: 840px) {
-    #view-4-features .giant-features span {
-      font-size: 309px;
-      line-height: 309px;
-      top: -73px;
-      } }
-  @media (min-width: 960px) {
-    #view-4-features .giant-features span {
-      font-size: 360px;
-      line-height: 360px;
-      top: -77px; } }
-  @media (min-width: 1024px) {
-    #view-4-features .giant-features span {
-      font-size: 386px;
-      line-height: 386px;
-      top: -110px; } }
-  @media (min-width: 1280px) {
-    #view-4-features .giant-features span {
-      font-size: 404px;
-      line-height: 404px;
-      top: -128px; } }
-  @media (min-width: 1440px) {
-    #view-4-features .giant-features span {
-      font-size: 517px;
-      line-height: 517px;
-      left: 20px;
-      top: -152px; } }
-  @media (min-width: 1600px) {
-    #view-4-features .giant-features span {
-      font-size: 577px;
-      line-height: 577px;
-      top: -223px; } }
-  @media (min-width: 1920px) {
-    #view-4-features .giant-features span {
-      font-size: 648px;
-      line-height: 648px;
-      top: -274px; } }

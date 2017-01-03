@@ -1,10 +1,11 @@
 /* Custom TopbarColor
 		========================================================================== */
+
 .topbar {
 	background: rgba($primary, .02);
 	box-shadow: none;
 	.name {
-		color: rgba($accent2, 1);
+		color: rgba($accent, 1);
 	}
 }
 

@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "A Blazing-Fast Single Page Application Engine"
+description: "A blazing fast Single Page Application engine"
 ---
 
 {namespace pageIndex}
@@ -29,14 +29,16 @@ description: "A Blazing-Fast Single Page Application Engine"
 {template .header}
 	<header class="header">
 		<div class="container">
-			<img id="header-logo" src="../img/logo-yellow.png" alt="senna.js logo" height="256">
 			<h1 id="header-h1" class="header-title">SENNA.JS</h1>
 			<h2 class="header-subtitle" id="header-h2">{$site.index.description}</h2>
 			<div id="header-button" class="header-cta">
-				<a id="header-button-download" href="https://github.com/liferay/senna.js/archive/master.zip" class="btn btn-accent">Download</a>
-				<a id="header-button-github" href="https://github.com/liferay/senna.js/" class="btn btn-default" target="_blank"><span class="icon-16-github"></span> GitHub</a>
+				<a id="header-button-download" href="https://github.com/liferay/senna.js/archive/master.zip" class="btn btn-accent">
+					<span class="icon-16-download"></span> Download
+				</a>
+				<a id="header-button-github" href="https://github.com/liferay/senna.js/" class="btn btn-default" target="_blank">
+					<span class="icon-16-github"></span> GitHub
+				</a>
 			</div>
-			<h2 id="header-code" class="header-subtitle"><code>npm install senna</code></h2>
 		</div>
 	</header>
 {/template}
@@ -50,7 +52,7 @@ description: "A Blazing-Fast Single Page Application Engine"
 			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
 					<h3 class="about-title">Why Senna.js?</h3>
-					<p class="about-description">We built Senna.js to be a lightweight plugin that can turn any static site into a fast and responsive app without changing frameworks or rewriting tons of code.</p>
+					<p class="about-description">We built Senna.js to be a lightweight plugin that can turn any static site into a fast and responsive app without adding frameworks or rewriting tons of code.</p>
 					<p></p>
 				</div>
 			</div>
@@ -62,16 +64,15 @@ description: "A Blazing-Fast Single Page Application Engine"
  *
  */
 {template .highlights}
-	<div id="view-4-highlights" class="highlights">
-		<div id="view-4" class="container">
-			//<div id="view-4__giant-highlights" class="giant-highlights"><span>SENNA</span></div>
+	<div class="highlights">
+		<div class="container">
 			<section class="highlight row">
 				<div class="col-md-6 col-md-offset-2">
 					<h4 class="highlight-title">Blazing Fast</h4>
 					<p class="highlight-description">Our clean API's can turn your static site into a blazing fast single-page application in just a couple clicks.</p>
 				</div>
 				<div class="col-md-5 col-md-offset-1">
-					<img class="highlight-image" src="/img/blazingFast.png" width="300px" alt="blazing fast">
+					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="blazing fast">
 				</div>
 			</section>
 			<section class="highlight row">
@@ -80,7 +81,7 @@ description: "A Blazing-Fast Single Page Application Engine"
 					<p class="highlight-description">By cacheing reusable resources like CSS and Script files, Senna significantly lowers your user's bandwidth.</p>
 				</div>
 				<div class="col-md-5 col-md-offset-1 col-md-pull-6">
-					<img class="highlight-image" src="/img/minimalBandwidth.png" width="300px" alt="minimal bandwidth">
+					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="minimal bandwidth">
 				</div>
 			</section>
 			<section class="highlight row">
@@ -89,7 +90,7 @@ description: "A Blazing-Fast Single Page Application Engine"
 					<p class="highlight-description">No need to switch frameworks. Senna is unobtrusive and can be easily added to your existing HTML or JavaScript.</p>
 				</div>
 				<div class="col-md-5 col-md-offset-1">
-					<img class="highlight-image" src="/img/incrediblyVersatile.png" width="300px" alt="incredibly versatile">
+					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="incredibly versatile">
 				</div>
 			</section>
 		</div>
@@ -100,29 +101,25 @@ description: "A Blazing-Fast Single Page Application Engine"
  *
  */
 {template .how}
-	/*<article class="about">
+	<article class="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
-					<h3 class="about-title">But how?</h3>
-					<p class="about-description">Check out the examples below to see how Senna.js can speed up your app with a few lines of code.</p>
+					<h3 class="about-title">How does it work?</h3>
+					<p class="about-description">We built Senna.js to be a lightweight plugin that can turn any static site into a fast and responsive app without adding frameworks or rewriting tons of code.</p>
 				</div>
 			</div>
 		</div>
-	</article>*/
+	</article>
 {/template}
 
 /**
  *
  */
 {template .features}
-	<div id="view-4-features" class="features">
-		//<div id="view-4__giant" class="giant-features"><span>SENNA</span></div>
+	<div class="features">
 		<div class="container">
 			<div class="row">
-				<section class="feature col-md-16">
-					<h1 class="feature-header">How does it work?</h1>
-				</section>
 				<section class="feature col-md-4">
 					<div class="icon-container">
 						<div class="feature-icon flex-center-center">
@@ -180,11 +177,6 @@ description: "A Blazing-Fast Single Page Application Engine"
 					<p class="feature-description">Quickly, Senna.js finds what content is new to the requested page and paints only the new content to the screen.</p>
 				</section>
 			</div>
-			<div>
-				<div id="header-button footer-download" class="header-cta row flex-center-center">
-					<a id="header-button-download" href="https://github.com/liferay/senna.js/archive/master.zip" class="btn btn-accent">DOWNLOAD - Speed up your app now</a>
-				</div>
-			</div>
 		</div>
 	</div>
 {/template}
@@ -197,7 +189,7 @@ description: "A Blazing-Fast Single Page Application Engine"
 		<div class="container">
 			<div class="row">
 				<p class="footer-description col-md-6 col-md-offset-2">
-					Copyright © 2016 <a href="https://liferay.com" target="_blank">Liferay, Inc</a>
+					Brought to you by <a href="https://liferay.com" target="_blank">Liferay, Inc</a>
 				</p>
 				<p class="footer-description col-md-6">
 					Powered by <a href="http://wedeploy.com" target="_blank">WeDeploy™</a>

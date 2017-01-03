@@ -74,13 +74,13 @@
 
 .docs-content a {
 	@include anim(color);
-	color: $accent2;
+	color: $accent;
 	font-weight: 400;
 }
 
 .docs-content a:hover,
 .docs-content a:focus {
-	color: rgba($accent2, .6);
+	color: rgba($accent, .6);
 	text-decoration: none;
 }
 
@@ -187,10 +187,10 @@
 }
 
 .docs-content code {
-	background: rgba($accent2, 0.1);
-	border: 0px solid $accent2;
+	background: rgba($accent, 0.1);
+	border: 0px solid $accent;
 	font-size: 14px;
-	color: $accent2;
+	color: $accent;
 	padding: 3px;
 	font-weight: 600;
 }
@@ -239,7 +239,7 @@
 }
 
 .docs-home-top-title {
-	color: rgba($accent2, .9);
+	color: rgba($accent, .9);
 	font-size: 36px;
 	font-weight: 300;
 	letter-spacing: -1px;
@@ -594,7 +594,7 @@
 	padding: 0 20px 0;
 
 	/*&.active a {
-		background-color: rgba($accent2, .1);
+		background-color: rgba($accent, .1);
 		border-radius: 5px;
 	}*/
 }
@@ -673,8 +673,8 @@
 .docs .sidebar-list-1 .sidebar-link:focus,
 .docs .sidebar-list-1 .sidebar-link-selected:hover,
 .docs .sidebar-list-1 .sidebar-link-selected:focus {
-	background: rgba($accent2, .1);
-	color: $accent2;
+	background: rgba($accent, .1);
+	color: $accent;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border: none;
@@ -738,7 +738,7 @@
 }
 
 .docs li > .sidebar-list a:hover {
-	color: rgba($accent2, 1);
+	color: rgba($accent, 1);
 }
 
 .sidebar-item {
@@ -761,7 +761,7 @@
 .docs .sidebar-list .sidebar-item li.sidebar-item.active,
 .docs .sidebar-list .sidebar-item li.sidebar-item.active:hover,
 .docs .sidebar-list .sidebar-item li.sidebar-item.active:focus {
-	background: rgba($accent2, .1);
+	background: rgba($accent, .1);
 	//font-family: "Open Sans", sans-serif;
 	//font-weight: 400;
 	//border: none;
