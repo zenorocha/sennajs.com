@@ -1,16 +1,16 @@
 .footer {
-	background: white;
-	padding: 85px 0 30px;
+	background: $primary;
+	padding: 45px 0 30px;
 }
 
 .footer-description {
-	color: $accent2;
+	color: rgba(white, .6);
 	font-family: $font-family-sans-serif;
 	font-size: 16px;
 	text-align: center;
 
 	a {
-		color: $primary;
+		color: white;
 		border-bottom: 2px solid $accent;
 		font-weight: 600;
 	}
