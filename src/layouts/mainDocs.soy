@@ -7,8 +7,9 @@
 {template .render}
 	<div class="{$elementClasses ?: 'main'}">
 		<main class="content">
-			{call TopbarDocs.render data="all" /}
-
+			<div class="sidebar-offset">
+				{call Topbar.render data="all" /}
+			</div>
 			{$content}
 		</main>
 	</div>
