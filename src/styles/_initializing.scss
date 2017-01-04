@@ -1,16 +1,16 @@
-.highlights {
+.initializing {
   .container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 }
 
-.highlight.row {
-  margin-top: 70px;
-  margin-bottom: 70px;
+.initializing.row {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.highlights {
+.initializings {
 	background: rgb(250, 250, 251);
 }
 
@@ -18,7 +18,7 @@
 	z-index: 3;
 }
 
-.highlight-title {
+.initializing-title {
 	font-family: $font-family-secondary-bold;
 	font-size: 55px;
 	margin: 30px 0;
@@ -27,28 +27,19 @@
   display: inline;
 }
 
-.highlight-description {
+.initializing-description {
 	font-family: $font-family-sans-serif;
 	font-size: 22px;
 	line-height: 34px;
-	margin: 30px 0 20px 0;
+	margin: 10px 0 20px 0;
 	color: rgba($primary, 1);
+  border-left: 4px solid rgba($accent, .8);
+  padding-left: 10px;
 }
 
-.highlight-graphic {
-  /*border-bottom: 10px solid $accent;
-  border-top: 10px solid $accent;*/
-  box-shadow: 0 2px 8px rgba($primary, 0.2);
-  border-radius: 50%;
-  text-align: center;
-}
-
-.highlight-graphic [class^="icon-16-"], 
-.highlight-graphc[class*="icon-16-"] {
-  border-radius: 8px;
-  font-size: 120px;
-  line-height: 200px;
-  color: $accent;
+.initializing-image {
+	border-radius: 8px;
+  max-width: 100%;
 }
 
 .footer-download {
@@ -56,21 +47,22 @@
 	text-align: center;
 }
 
-.highlight code {
+.initializing code {
   padding: 1px;
   color: rgba($primary, 1);
-  font-size: 18px;
+  font-size: 20px;
 
 }
 
-.highlight-code pre {
+.initializing-code pre {
   background: $primary;
   white-space: pre-wrap;
+  padding-left: 10px;
 }
 
-.highlight-code code {
+.initializing-code code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 13px;
+  font-size: 16px;
   background: transparent;
   border: 0;
   color: rgba(256,256,256, 1);
@@ -78,7 +70,7 @@
   white-space: inherit;
 }
 
-.highlight-code {
+.initializing-code {
   .hljs-string, .hljs-value, .hljs-inheritance, .hljs-header, .hljs-name, .ruby .hljs-symbol, .xml .hljs-cdata {
     color: $accent;
   }

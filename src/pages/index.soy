@@ -15,6 +15,8 @@ description: "A blazing fast Single Page Application engine"
 				{call .header data="all" /}
 				{call .why /}
 				{call .highlights /}
+				{call .start /}
+				{call .initializing /}
 				{call .how /}
 				{call .features /}
 				{call .footer /}
@@ -51,7 +53,7 @@ description: "A blazing fast Single Page Application engine"
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
-					<h3 class="about-title">Why Senna.js?</h3>
+					<h3 class="about-title">Why?</h3>
 					<p class="about-description">We built Senna.js to be a lightweight plugin that can turn any static site into a fast and responsive app without adding frameworks or rewriting tons of code.</p>
 					<p></p>
 				</div>
@@ -64,26 +66,80 @@ description: "A blazing fast Single Page Application engine"
  *
  */
 {template .highlights}
-	<div class="highlights">
+	<div class="highlight">
 		<div class="container">
 			<section class="highlight row">
+				<div class="col-md-6 col-md-offset-2">
+					<h4 class="highlight-title">Blazing Fast</h4>
+					<p class="highlight-description">Our clean API's can turn your static site into a blazing fast single-page application in just a couple clicks.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1 highlight-graphic">
+					<span class="icon-16-flash"></span>
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-push-8">
+					<h4 class="highlight-title">Minimal Bandwidth</h4>
+					<p class="highlight-description">By cacheing reusable resources like CSS and Script files, Senna significantly lowers your user's bandwidth.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-md-pull-6 highlight-graphic">
+					<span class="icon-16-cloud"></span>
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-offset-2">
+					<h4 class="highlight-title">Incredibly Versatile</h4>
+					<p class="highlight-description">No need to switch frameworks. Senna is unobtrusive and can be easily added to your existing HTML or JavaScript.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1 highlight-graphic">
+					<span class="icon-16-globe"></span>
+				</div>
+			</section>
+		</div>
+	</div>
+{/template}
+
+/**
+ *
+ */
+{template .start}
+	<article class="about">
+		<div class="container">
+			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
-					<h4 class="highlight-title">Link</h4>
-					<p class="highlight-description">First, add Senna.js to your document using CDN.</p>
+					<h3 class="about-title">Using Senna.js</h3>
+					<p class="about-description">There are many ways to use Senna.js You can install the NPM depenency, link the CDN, or even download the full package with example files. Here is one of the easy ways to get started with Senna.js in a couple clicks.</p>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</article>
+{/template}
+
+/**
+ *
+ */
+{template .initializing}
+	<div class="initializing">
+		<div class="container">
+			<section class="initializing row">
+				<div class="col-md-12 col-md-offset-2">
+					<h4 class="initializing-title">1. Link</h4>
+					<p class="initializing-description">First, add Senna.js to your document using CDN.</p>
 				</div>
 				<div class="col-md-12 col-md-offset-2">
-					<p class="highlight-code"><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span 
+					<p class="initializing-code"><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span 
 					class="hljs-string">"https:cdn.jsdelivr.net/senna.js/2.1.1/senna-min.js"</span>&gt;</span><span class="handlebars"><span class="xml"></span></span><br>
 </code></pre></p>
 				</div>
 			</section>
-			<section class="highlight row">
+			<section class="initializing row">
 				<div class="col-md-12 col-md-offset-2">
-					<h4 class="highlight-title">Add</h4>
-					<p class="highlight-description">Then, include the Senna.js attributes into your body element</p>
+					<h4 class="initializing-title">2. Add</h4>
+					<p class="initializing-description">Then, include the Senna.js attributes into your body element</p>
 				</div>
 				<div class="col-md-12 col-md-offset-2">
-					<p class="highlight-code"><pre><code>
+					<p class="initializing-code"><pre><code>
 						<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span><br>
 							<span class="hljs-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span 
 							class="hljs-string">"https:cdn.jsdelivr.net/senna.js/2.1.1/senna-min.js"</span>&gt;</span><span class="handlebars"><span class="xml"></span></span><br>
@@ -94,15 +150,16 @@ description: "A blazing fast Single Page Application engine"
 						</code></pre></p>
 				</div>
 			</section>
-			<section class="highlight row">
+			<section class="initializing row">
 				<div class="col-md-12 col-md-offset-2">
-					<h4 class="highlight-title">Run</h4>
-					<p class="highlight-description">Now navigating through different pages of your app to see how fast it is!</p>
+					<h4 class="initializing-title">3. Run</h4>
+					<p class="initializing-description">Now navigating through different pages of your app to see how fast it is!</p>
 				</div>
 			</section>
 		</div>
 	</div>
 {/template}
+
 /*
 /**
  *

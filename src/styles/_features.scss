@@ -111,6 +111,10 @@
     font-size: 55px;
   }
   h3 {
-    color: rgba($primary, .85);
+    color: $primary;
+    font-size: 36px;
+  }
+  p {
+    color: rgba($primary, .8);
   }
 }

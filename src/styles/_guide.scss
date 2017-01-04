@@ -7,8 +7,11 @@
 .guide-header {
 	background: rgba($primary, .02);
 	text-align: center;
-	padding: 108px 0 96px;
+	padding: 96px 0;
 	margin-top: 0;
+	h1 {
+		margin: 0;
+	}
 }
 
 .guide-header-title {
@@ -88,6 +91,13 @@
 	width: 134px;
 }
 
+/* Reading Progress
+   ========================================================================== */
+
+reading-title {
+	color: $primary;
+}
+
 /* Edit on GitHub
    ========================================================================== */
 
@@ -155,10 +165,9 @@
 
 /* Medium screens
    ========================================================================== */
-
-@media (min-width: $screen-md-min) {
+@media (max-width: $screen-md-min) {
 	.guide-header {
-		padding-top: 30px;
+		padding-top: 176px; 
 	}
 }
 
