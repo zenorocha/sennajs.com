@@ -27,7 +27,7 @@
 	}
 
 	.name {
-		color: $primary;
+		color: rgba($primary, .9);
 		font-family: "Galano Bold", sans-serif;
 		font-size: 17px;
 		font-weight: 400;
@@ -37,7 +37,7 @@
 	}
 
 	.by {
-		color: rgba($primary, 0.3);
+		color: rgba($primary, 0.5);
 		font-family: "Galano Medium", sans-serif;
 		font-size: 12px;
 		font-weight: 400;

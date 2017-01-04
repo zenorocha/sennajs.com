@@ -17,18 +17,6 @@
 	}
 }
 
-  .topic-house .topic-icon, .topic-house.radial-out:before {
-    background: $color-orange; }
-
-  .topic-arrow-right-rod .topic-icon, .topic-arrow-right-rod.radial-out:before {
-    background: $color-green; }
-
-  .topic-apps .topic-icon, .topic-apps.radial-out:before {
-    background: $color-reds; }
-
-  .topic-code-file .topic-icon, .topic-code-file.radial-out:before {
-    background: $color-purple; }
-
 
 .topic-icon {
 	display: block;
@@ -38,7 +26,7 @@
 }
 
 .topic-title {
-	color: $primary;
+	color: rgba($primary, .9);
 	font-family: $font-family-secondary;
 	font-size: 20px;
 	font-weight: 700;

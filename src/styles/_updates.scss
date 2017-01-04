@@ -1,21 +1,11 @@
 
-#updates {
-	.topbar {
+.updates {
+	.updates {
 		background-color: rgba($primary, .03);
 	}
 	.header {
-		background-color: rgba($primary, .03);
-		box-shadow: 0 4px 8px rgba(0, 61, 63, 0.1);
+		
 	}
-}
-
-.update-header {
-	background: rgba($primary, .02);
-	left: 0;
-	margin: 70px auto 50px auto;
-	right: 0;
-	text-align: center;
-	width: 70%;
 }
 
 .update-row {
