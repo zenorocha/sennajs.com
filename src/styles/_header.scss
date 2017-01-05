@@ -6,15 +6,18 @@
 
 .header-title {
 	font-family: $font-family-secondary-bold;
-	font-size: 91px;
+	font-size: 99px;
 	margin: 0;
 	color: $primary;
+  span {
+    color: rgba($primary, .6);
+  }
 }
 
 .header-subtitle {
 	font-family: $font-family-sans-serif;
   color: rgba($primary, 0.8);
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 24px;
 	margin: 8px 0 30px;
 }
@@ -25,7 +28,7 @@
 }
 
 .header .header-cta a {
-  width: 210px;
+  width: 228px;
 }
 
 .btn-accent {
@@ -34,6 +37,10 @@
 
 .btn-accent:hover {
 	color: rgba($primary, .95);
+}
+
+.btn-default {
+  animation: all 0.3s ease-in-out;
 }
 
 #gh-btns-container {
@@ -67,11 +74,6 @@ code {
 
 #header-button-github {
   background: rgba($primary, .08);
-  span {
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; 
-  }
 }
 
 #header-button-github:hover {
@@ -129,7 +131,7 @@ code {
 
 @-webkit-keyframes fadeInLeft {
   0% {
-    -webkit-transform: translate3d(-100px, 0, 0);
+    -webkit-transform: translate3d(-150px, 0, 0);
     opacity: 0; }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -137,7 +139,7 @@ code {
 
 @keyframes fadeInLeft {
   0% {
-    transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-150px, 0, 0);
     opacity: 0; }
   100% {
     transform: translate3d(0, 0, 0);
@@ -145,7 +147,7 @@ code {
 
 @-webkit-keyframes fadeInRight {
   0% {
-    -webkit-transform: translate3d(100px, 0, 0);
+    -webkit-transform: translate3d(150px, 0, 0);
     opacity: 0; }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -153,7 +155,7 @@ code {
 
 @keyframes fadeInRight {
   0% {
-    transform: translate3d(100px, 0, 0);
+    transform: translate3d(150px, 0, 0);
     opacity: 0; }
   100% {
     transform: translate3d(0, 0, 0);
@@ -161,7 +163,7 @@ code {
 
 @-webkit-keyframes fadeInBottom {
   0% {
-    -webkit-transform: translate3d(0, 100px, 0);
+    -webkit-transform: translate3d(0, 120px, 0);
     opacity: 0; }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -169,7 +171,7 @@ code {
 
 @keyframes fadeInBottom {
   0% {
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 120px, 0);
     opacity: 0; }
   100% {
     transform: translate3d(0, 0, 0);
