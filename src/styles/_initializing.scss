@@ -1,13 +1,13 @@
 .initializing {
   .container {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 .initializing.row {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .initializings {
@@ -45,6 +45,20 @@
 .footer-download {
 	width: 100%;
 	text-align: center;
+}
+
+#example-button {
+  background: rgba($accent, .9);
+  color: rgba($primary, 1);
+  font-size: 17px;
+  padding: 20px 35px;
+  line-height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#example-button:hover {
+  background: rgba($accent, .65);
+  color: rgba($primary, .7);
 }
 
 .initializing code {
