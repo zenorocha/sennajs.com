@@ -6,7 +6,7 @@ category: "Develop"
 weight: 5
 ---
 
-JavaScript APIs
+# JavaScript APIs
 
 <article id="js-api">
 
