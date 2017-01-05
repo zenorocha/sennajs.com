@@ -1,5 +1,5 @@
 .header {
-	padding: 200px 0 200px;
+	padding: 100px 0 0;
 	text-align: center;
 	background-color: white;
 }
@@ -21,7 +21,7 @@
 
 .header-cta a {
 	font-size: 18px;
-	margin: 0 15px 20px;
+	margin: 0 15px 120px;
 }
 
 .header .header-cta a {
@@ -34,6 +34,23 @@
 
 .btn-accent:hover {
 	color: rgba($primary, .95);
+}
+
+#gh-btns-container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.gh-btns {
+  margin: 0;
+  padding: 17px 0 12px;
+  background: rgba($primary, .07);
+  #gh-count:hover {
+    color: $accent;
+  }
 }
 
 code {
@@ -49,6 +66,7 @@ code {
 }
 
 #header-button-github {
+  background: rgba($primary, .08);
   span {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;

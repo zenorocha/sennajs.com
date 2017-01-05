@@ -18,6 +18,7 @@
 .topbar-logo-link {
 	-webkit-animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
   	animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
+  	align-items: center;
 
 	.icon {
 		color: $accent;
@@ -31,9 +32,9 @@
 		font-family: "Galano Bold", sans-serif;
 		font-size: 17px;
 		font-weight: 400;
-		line-height: 36px;
 		margin-left: 8px;
 		text-transform: uppercase;
+		border-bottom: 4px solid $accent;
 	}
 
 	.by {
@@ -43,7 +44,7 @@
 		font-weight: 400;
 		margin-left: 8px;
 		position: relative;
-		top: 10px;
+		top: -2px;
 	}
 }
 
@@ -64,7 +65,7 @@
 .topbar-link:hover {
 	color: rgba($primary, .8);
 	padding-bottom: 2px;
-	border-bottom: 5px solid #FFCC00;
+	border-bottom: 4px solid #FFCC00;
 }
 
 #topbar-button {
