@@ -48,11 +48,14 @@
 		margin-left: 8px;
 		position: relative;
 		top: -2px;
+		display: none;
 	}
 }
 
 .topbar-list {
 	margin-right: 8px;
+	align-items: stretch;
+	margin-top: 3px;
 }
 
 .topbar-link {
@@ -117,3 +120,11 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media (min-width: $screen-sm-min) {
+	.topbar-logo-link {
+		.by {
+			display: block;
+		}
+	}
+}

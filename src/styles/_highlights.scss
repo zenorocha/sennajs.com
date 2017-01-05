@@ -40,6 +40,7 @@
   box-shadow: 0 2px 8px rgba($primary, 0.2);*/
   border-radius: 50%;
   text-align: center;
+  margin-top: 50px;
 }
 
 .highlight-graphic [class^="icon-16-"], 
@@ -47,10 +48,10 @@
   box-shadow: 0 2px 8px rgba(27, 26, 24, 0.2);
   /* padding: 20px 25px; */
   border-radius: 50%;
-  font-size: 120px;
-  line-height: 213px;
+  font-size: 62px;
+  line-height: 137px;
   color: $accent;
-  width: 220px;
+  width: 140px;
   display: block;
   margin: auto;
 }
@@ -101,5 +102,19 @@
 
   .hljs-function, .python .hljs-decorator, .python .hljs-title, .ruby .hljs-function .hljs-title, .ruby .hljs-title .hljs-keyword, .perl .hljs-sub, .javascript .hljs-title, .coffeescript .hljs-title {
     color: rgba($color-emerald, .9);
+  }
+}
+
+
+@media (min-width: $screen-sm-min) {
+  .highlight-graphic [class^="icon-16-"], 
+  .highlight-graphc[class*="icon-16-"] {
+    font-size: 120px;
+    line-height: 213px;
+    width: 220px;
+  }
+
+  .highlight-graphic {
+    margin-top: 0px;
   }
 }
