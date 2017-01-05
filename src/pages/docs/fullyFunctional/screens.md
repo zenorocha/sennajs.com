@@ -10,7 +10,7 @@ weight: 1
 
 <article id="senna.HTMLScreen">
 
-## Senna.HTMLscreen
+## Senna.HTMLScreen
 
 Senna.js provides a special type of route handler, or interface, called `senna.Screen`. This in itself is not an active class, rather, it merely defines the screen interface methods and demonstrates how to use the API. The real magic happens when we extend `senna.Screen`. 
 
@@ -18,7 +18,7 @@ We knew this might be a little tricky at first, so we creating our own extention
 
 </article>
 
-<article id="senna.screenToWork">
+<article id="senna.ScreenToWork">
 
 ## How can you put Senna.HTMLScreen to work?
 
@@ -34,7 +34,7 @@ When you added `data-senna` and `data-senna-surface` to your document (see [Gett
 
 We want you to know how Senna works so that you can fully trust it to empower your app. Bellow are the cycle logs for senna.Screen. Feel free to look at them or even inspect your own browser console during a link navigation using Senna.
 
-You can also jump to [Controlling Surfaces](/docs/advancedUsage/controllingSurfaces.html) to learn more about how to customize screens on your app.
+You can also jump to [Controlling Surfaces](/docs/fullyFunctional/controllingSurfaces.html) to learn more about how to customize screens on your app.
 
 {literal}
 ```
