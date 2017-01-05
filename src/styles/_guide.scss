@@ -1,5 +1,16 @@
 /* Custom TopbarColor
 		========================================================================== */
+.topbar.docs {
+	.topbar-logo-link {
+		-webkit-animation: none;
+  		animation: none;
+  	}
+  	.topbar-link {
+  		-webkit-animation: none;
+  		animation: none;
+  	}
+}
+
 
 /* Header
 		========================================================================== */

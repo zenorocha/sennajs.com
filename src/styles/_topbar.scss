@@ -57,8 +57,8 @@
 
 .topbar-link {
 	color: rgba($primary, .8);
-	-webkit-animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
-  	animation: fadeIn 1s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
+	-webkit-animation: fadeIn .6s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
+  	animation: fadeIn .6s cubic-bezier(0.3, 0, 0.3, 1) 0s 1 forwards;
   	padding-bottom: 2px;
   	border-bottom: 5px solid transparent;
   	-webkit-transition: border-bottom ease .3s;
@@ -106,7 +106,7 @@
 	}
   }
 
-  @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
