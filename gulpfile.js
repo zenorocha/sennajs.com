@@ -1,15 +1,15 @@
+const connect = require('gulp-connect');
+const electric = require('electric');
+const ghPages = require('gulp-gh-pages');
 const gulp = require('gulp');
 const hljs = require('highlight.js');
-const connect = require('gulp-connect');
 const sass = require('gulp-sass');
-const ghPages = require('gulp-gh-pages');
-const ssg = require('metal-ssg');
 
 const runSequence = require('run-sequence');
 
-ssg.registerTasks({
+electric.registerTasks({
 	gulp: gulp,
-	plugins: ['metal-ssg-components'],
+	plugins: ['electric-components'],
 	markdownOptions: {
 		highlight: function (str, lang) {
 			if (lang && hljs.getLanguage(lang)) {
@@ -45,7 +45,7 @@ gulp.task('images', () => {
 		.pipe(gulp.dest('dist/img'));
 });
 
-// Javascripts 
+// Javascripts
 
 gulp.task('js', () => {
 	return gulp.src('src/js/**/*')
