@@ -115,7 +115,6 @@ description: "A blazing fast Single Page Application engine"
 				<div class="col-md-12 col-md-offset-2">
 					<h3 class="about-title">Using Senna</h3>
 					<p class="about-description">There are many ways to use Senna. You can install the NPM depenency, link the CDN, or even download the full package with example files. Here is one of the easy ways to get started with Senna in a couple clicks.</p>
-					<p></p>
 				</div>
 			</div>
 		</div>
@@ -176,7 +175,7 @@ description: "A blazing fast Single Page Application engine"
 			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
 					<h3 class="about-title">How does it work?</h3>
-					<p class="about-description">We built Senna to be a lightweight plugin that can turn any static site into a fast and responsive app without adding frameworks or rewriting tons of code.</p>
+					<p class="about-description">When the user clicks on a link, new content will be dynamically loaded without a page refresh. The application will update the URL to emulate traditional page navigation, but another full page request is never made — resulting in a much faster user experience.</p>
 				</div>
 			</div>
 		</div>
@@ -190,10 +189,10 @@ description: "A blazing fast Single Page Application engine"
 	<div class="features">
 		<div class="container">
 			<div class="row">
-				<section class="feature col-md-4">
+				<section class="feature col-md-4 col-md-offset-2">
 					<div class="icon-container">
 						<div class="feature-icon flex-center-center">
-							<span class="icon-16-house"></span>
+							<span class="icon-16-download"></span>
 						</div>
 						<div class="sjs-container">
 							<div class="sjs flex-center-center">
@@ -202,7 +201,7 @@ description: "A blazing fast Single Page Application engine"
 						</div>
 					</div>
 					<h3 class="feature-title">LOAD</h3>
-					<p class="feature-description">Your app will load all the background resources on the initial page load and caches them for future use.</p>
+					<p class="feature-description">Your app will fetch all the resources needed on the initial page load and caches them for future use.</p>
 				</section>
 				<section class="feature col-md-4">
 					<div class="icon-container">	
@@ -216,12 +215,12 @@ description: "A blazing fast Single Page Application engine"
 						</div>
 					</div>
 					<h3 class="feature-title">NAVIGATE</h3>
-					<p class="feature-description">A link is clicked and Senna populates the new url even though it is not fully loading a new page.</p>
+					<p class="feature-description">When a link is clicked, Senna prevents a full page navigation and starts fetching assets dynamically.</p>
 				</section>
 				<section class="feature col-md-4">
 					<div class="icon-container">	
 						<div class="feature-icon flex-center-center">
-							<span class="icon-16-spinner-single-arrow"></span>
+							<span class="icon-16-spinner-double-arrows"></span>
 						</div>
 						<div class="sjs-container">
 							<div class="sjs flex-center-center">
@@ -229,22 +228,8 @@ description: "A blazing fast Single Page Application engine"
 							</div>
 						</div>
 					</div>
-					<h3 class="feature-title">REQUEST</h3>
-					<p class="feature-description">The request is made but Senna utilizes the cached resources before pulling any new elements. </p>
-				</section>
-				<section class="feature col-md-4">
-					<div class="icon-container">	
-						<div class="feature-icon flex-center-center">
-							<span class="icon-16-streams"></span>
-						</div>
-						<div class="sjs-container">
-							<div class="sjs flex-center-center">
-								<span>4</span>
-							</div>
-						</div>
-					</div>
-					<h3 class="feature-title">PAINT</h3>
-					<p class="feature-description">Quickly, Senna finds what content is new to the requested page and paints only the new content to the screen.</p>
+					<h3 class="feature-title">RENDER</h3>
+					<p class="feature-description">Lastly, Senna updates the URL in the address bar and renders only the new content to the screen.</p>
 				</section>
 			</div>
 		</div>
