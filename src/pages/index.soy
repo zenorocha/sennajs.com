@@ -114,7 +114,7 @@ description: "A blazing fast Single Page Application engine"
 			<div class="row">
 				<div class="col-md-12 col-md-offset-2">
 					<h3 class="about-title">Using Senna</h3>
-					<p class="about-description">There are many ways to use Senna. You can install the NPM depenency, link the CDN, or even download the full package with example files. Here is one of the easy ways to get started with Senna in a couple clicks.</p>
+					<p class="about-description">There are two ways to use Senna. One is by leveraging the JavaScript API and the other is by declaring HTML5 data attributes. Below you can see how to quickly get started.</p>
 				</div>
 			</div>
 		</div>
@@ -129,24 +129,33 @@ description: "A blazing fast Single Page Application engine"
 		<div class="container">
 			<section class="initializing row">
 				<div class="col-md-12 col-md-offset-2">
-					<h4 class="initializing-title">1. Link</h4>
-					<p class="initializing-description">First, add Senna to your document using CDN.</p>
+					<h4 class="initializing-title">1. Install</h4>
+					<p class="initializing-description">First, you can get it on npm or just use a <a href="http://www.jsdelivr.com/projects/senna.js">CDN</a>.</p>
 				</div>
 				<div class="col-md-12 col-md-offset-2">
-					<p class="initializing-code"><pre><code>
-							<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span 
-							class="hljs-string">"https://cdn.jsdelivr.net/senna.js/2.1.1/senna-min.js"</span>&gt;</span><span class="handlebars"><span class="xml"></span></span><br>
-</code></pre></p>
+					<p class="initializing-code"><pre><code><span class="hljs-tag">npm <span 
+							class="hljs-string">install senna</span></span></code></pre></p>
 				</div>
 			</section>
 			<section class="initializing row">
 				<div class="col-md-12 col-md-offset-2">
-					<h4 class="initializing-title">2. Add</h4>
-					<p class="initializing-description">Then, include the Senna attributes into your body element</p>
-				</div>
-				<div class="col-md-12 col-md-offset-2">
+					<h4 class="initializing-title">2. Include</h4>
+					<p class="initializing-description">Now add the Senna files into your head element.</p>
+				
+					<p class="initializing-code"><pre><code>
+						<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span><br>	
+						<span class="hljs-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span 
+							class="hljs-string">"node_modules/senna/build/globals/senna.js"</span>&gt;</span><br>
+						<span class="hljs-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span 
+							class="hljs-string">"node_modules/senna/build/senna.css"</span> <span class="hljs-attr">rel</span>=<span 
+							class="hljs-string">"stylesheet"</span>&gt;</span><span class="handlebars"><span class="xml"></span></span><br>
+						<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span></code></pre></p>
+					
+					<p class="initializing-description">Then, instantiate it via data attributes and include the loading bar element.</p>
 					<p class="initializing-code"><pre><code>
 						<span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">data-senna</span> <span class="hljs-attr">data-senna-surface</span>&gt;</span><br>	
+  							<span class="hljs-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span 
+							class="hljs-string">"senna-loading-bar"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br>
   							&nbsp;&nbsp;&nbsp;&nbsp;...	<br>
 						<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>	
 						</code></pre></p>
@@ -155,10 +164,15 @@ description: "A blazing fast Single Page Application engine"
 			<section class="initializing row">
 				<div class="col-md-12 col-md-offset-2">
 					<h4 class="initializing-title">3. Run</h4>
-					<p class="initializing-description">Now navigating through different pages of your app to see how fast it is!</p>
+					<p class="initializing-description">Finally, navigate through different pages using a slow connection to see how fast it is!</p>
+					
 					<a id="example-button" href="http://sennajs.com/examples/email" class="btn btn-example" target="_blank">
-					<span></span> See An Example
-				</a>
+						<span></span> See Live Example
+					</a>
+					<a id="example-button" href="http://sennajs.com/examples/email" class="btn btn-example" target="_blank">
+						<span></span> Watch Video Comparison
+					</a>
+
 				</div>
 			</section>
 		</div>
