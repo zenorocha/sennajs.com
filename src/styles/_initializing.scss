@@ -33,7 +33,7 @@
 	line-height: 34px;
 	margin: 10px 0 20px 0;
 	color: rgba($primary, 1);
-  border-left: 4px solid rgba($accent, .8);
+  border-left: 4px solid rgba($accent, .9);
   padding-left: 10px;
 }
 
@@ -47,11 +47,21 @@
 	text-align: center;
 }
 
+#initializing-link {
+  border-bottom: 3px solid $accent;
+}
+
+#initializing-link:hover {
+  color: rgba($primary, .9);
+ }
+
 #example-button {
   background: rgba($accent, .9);
   color: rgba($primary, 1);
   font-size: 17px;
   padding: 20px 35px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   line-height: 20px;
   transition: all 0.3s ease-in-out;
 }
