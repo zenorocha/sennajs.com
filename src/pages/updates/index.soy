@@ -128,7 +128,7 @@ updates:
 					</div>
 				</header>
 
-				{call SSGUpdates.render}
+				{call ElectricUpdates.render}
 					{param updates: $page.updates /}
           {param featureVariant: 'sennajs' /}
 				{/call}
@@ -142,7 +142,7 @@ updates:
 /**
  * @param feature
  */
-{deltemplate SSGUpdates.feature variant="'sennajs'"}
+{deltemplate ElectricUpdates.feature variant="'sennajs'"}
   <div class="col-xs-16 col-sm-16 update-feature">
     <div class="feature-topper">
       <span class="feature-icon icon-16-{$feature.icon}"></span>
