@@ -52,6 +52,10 @@
 	}
 }
 
+.topbar-item {
+	margin: 0 10px;
+}
+
 .topbar-list {
 	margin-right: 8px;
 	align-items: stretch;
@@ -127,5 +131,9 @@
 		.by {
 			display: block;
 		}
+	}
+
+	.topbar-item {
+		margin: 0 20px;
 	}
 }
