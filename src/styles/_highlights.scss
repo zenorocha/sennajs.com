@@ -1,12 +1,14 @@
 .highlight {
   .container {
-    margin: 80px auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
   }
 }
 
 .highlight.row {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  //margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .highlights {
@@ -28,7 +30,7 @@
 
 .highlight-description {
 	font-family: $font-family-secondary;
-	font-size: 21px;
+	font-size: 20px;
 	line-height: 33px;
 	margin: 30px 0 20px 0;
 	color: rgba($primary, .6);
@@ -45,7 +47,7 @@
 
 .highlight-graphic [class^="icon-16-"], 
 .highlight-graphc[class*="icon-16-"] {
-  box-shadow: 0 1px 10px 2px rgba(27, 26, 24, 0.2);
+  box-shadow: 0 7px 27px 5px rgba(14, 20, 26, 0.2);
   /* padding: 20px 25px; */
   border-radius: 50%;
   font-size: 62px;
