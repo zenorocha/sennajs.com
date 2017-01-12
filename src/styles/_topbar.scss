@@ -7,6 +7,8 @@
 
 .topbar {
 	background: white;
+	position: fixed;
+	z-index: 2000;
 }
 
 .topbar.docs {
@@ -75,7 +77,7 @@
 .topbar-link:hover {
 	color: rgba($primary, .8);
 	padding-bottom: 2px;
-	border-bottom: 4px solid #FFCC00;
+	border-bottom: 4px solid #ff4040;
 }
 
 #topbar-button {

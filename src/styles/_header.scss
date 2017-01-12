@@ -1,5 +1,5 @@
 .header {
-	padding: 150px 0 0;
+	padding: 210px 0 0;
 	text-align: center;
 	background-color: white;
 }
@@ -26,8 +26,8 @@
 }
 
 .header-subtitle {
-	font-family: $font-family-sans-serif;
-  color: rgba($primary, 0.8);
+	font-family: $font-family-secondary-semibold;
+  color: rgba($primary, 0.6);
 	font-size: 22px;
 	line-height: 24px;
 	margin: 8px 0 30px;
@@ -43,7 +43,7 @@
 }
 
 .btn-accent {
-	color: #555;
+	color: white;
 }
 
 .btn-accent:hover {
@@ -57,7 +57,7 @@
 .gh-btns {
   margin: 0;
   margin-top: 150px;
-  background: rgba($primary, .07);
+  background: $accent;
   padding-top: 16px;
   padding-bottom: 10.5px;
 }
@@ -89,7 +89,7 @@ code {
 }
 
 #header-button-download:hover {
-  color: rgba($primary, .9);
+  color: rgb(255,255,255);
 }
 
 #header-button-github {
@@ -109,7 +109,7 @@ code {
     font-size: 99px;
   }
   .header-subtitle {
-    font-size: 24px;
+    font-size: 22.1px;
   }
   /*gh-btns {
     margin-top: 0;

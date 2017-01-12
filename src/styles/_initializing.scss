@@ -20,7 +20,7 @@
 
 .initializing-title {
 	font-family: $font-family-secondary-bold;
-	font-size: 55px;
+	font-size: 48px;
 	margin: 30px 0;
 	color: $primary;
 	text-transform: uppercase;
@@ -28,12 +28,12 @@
 }
 
 .initializing-description {
-	font-family: $font-family-sans-serif;
-	font-size: 22px;
-	line-height: 34px;
+	font-family: $font-family-secondary;
+	font-size: 21px;
+	line-height: 32px;
 	margin: 10px 0 20px 0;
-	color: rgba($primary, 1);
-  border-left: 4px solid rgba($accent, .9);
+	color: rgba($primary, .6);
+  border-left: 4px solid rgba($accent, 1);
   padding-left: 10px;
 }
 
@@ -56,8 +56,8 @@
  }
 
 #example-button {
-  background: rgba($accent, .9);
-  color: rgba($primary, 1);
+  background: rgba($accent, 1);
+  color: rgba(255,255,255, 1);
   font-size: 17px;
   padding: 20px 35px;
   margin-right: 20px;
@@ -68,7 +68,7 @@
 
 #example-button:hover {
   background: rgba($accent, .65);
-  color: rgba($primary, .7);
+  color: rgb(255,255,255);
 }
 
 .initializing code {
@@ -100,19 +100,19 @@
   }
 
   .hljs-number, .hljs-preprocessor, .hljs-pragma, .hljs-built_in, .hljs-literal, .hljs-constant {
-    color: $color-red;
+    color: $accent;
   }
 
   .hljs-keyword, .javascript .hljs-function, .hljs-params {
-    color: $color-blue;
+    color: $accent;
   }
 
   .hljs-variable, .hljs-attribute, .hljs-tag, .hljs-regexp, .ruby .hljs-constant, .xml .hljs-tag .hljs-title, .xml .hljs-pi, .xml .hljs-doctype, .html .hljs-doctype, .css .hljs-id, .css .hljs-class, .css .hljs-pseudo {
-    color: $color-red;
+    color: $accent;
   }
 
   .hljs-function, .python .hljs-decorator, .python .hljs-title, .ruby .hljs-function .hljs-title, .ruby .hljs-title .hljs-keyword, .perl .hljs-sub, .javascript .hljs-title, .coffeescript .hljs-title {
-    color: rgba($color-emerald, .9);
+    color: $accent;
   }
 }
 
